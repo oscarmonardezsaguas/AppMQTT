@@ -9,8 +9,8 @@ android.view.View y widgets: Para gestionar la interfaz gráfica (botones, texto
 org.eclipse.paho.client.mqttv3: Para manejar la conexión al servidor MQTT, suscripciones, publicaciones y eventos.
 
 # 2. Constantes
-BROKER_URL: Dirección del servidor MQTT.
-CLIENT_ID: Identificador único del cliente MQTT.
+- BROKER_URL: Dirección del servidor MQTT.
+- CLIENT_ID: Identificador único del cliente MQTT.
 
 ```javascript
   private static final String BROKER_URL = "tcp://test.mosquitto.org:1883";
